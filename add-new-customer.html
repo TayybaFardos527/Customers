@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Customer</title>
+    <link rel="stylesheet" href="add-new-customer.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-content">
+        <div class="logo">
+          <a class="logo-icon" href="#"><img src="photos/logo.svg" alt="" /></a>
+          <span class="logo-text">HISSABI</span>
+        </div>
+        <div class="icon">
+          <div class="optima">
+            <span class="status-indicator"
+              ><a href="#"><img src="photos/optima.svg" alt="" /></a
+            ></span>
+            <span class="status-text">optima</span>
+            <span class="status-text"
+              ><a href="#"><img src="photos/Down.svg" alt="" /></a
+            ></span>
+          </div>
+          <div class="lang-notify">
+            <!-- noti or language -->
+            <span class="language-icon"
+              ><a href="#"><img src="photos/language.svg" alt="" /></a
+            ></span>
+            <span class="notification-icon"
+              ><a href="#"><img src="photos/notification.svg" alt="" /></a
+            ></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- header end -->
+    </div>
+    <!-- header div ends here  -->
+    <div class="sidebar"></div>
+    <div class="okha">
+      <div class="page-header">
+        <h1 class="page-title">Add New Customers</h1>
+        <div class="page-actions">
+          <button class="btn-secondary">
+            <img src="photos/attatchments.svg" alt="" />
+            Attatchments
+            <!-- <span class="num">3</span> -->
+          </button>
+        </div>
+      </div>
+      <div class="main">
+        <div class="form-container">
+          <div class="inn">
+            <div class="form-title">Customer Information</div>
+            <div class="low">
+              <div class="form-grid">
+                <div class="form-group">
+                  <label
+                    >Display Name
+                    <span
+                      ><a href="#"
+                        ><img src="photos/info-circle.com.svg" alt=""
+                      /></a> </span
+                  ></label>
+                  <div class="input-txt">
+                    <input class="inp-text" type="text" value="Enter Display Name" />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for=""
+                    >Registration Number
+                    <span>
+                      <a href="#"
+                        ><img src="photos/info-circle.com.svg" alt=""
+                      /></a> </span
+                  ></label>
+                  <div class="input-txt">
+                    <input class="inp-text" type="text" value="Enter Registration Number" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-grid">
+                <div class="form-group">
+                  <label
+                    >Company Name (English)
+                    <span
+                      ><a href="#"
+                        ><img src="photos/info-circle.com.svg" alt=""
+                      /></a> </span
+                  ></label>
+                  <div class="input-txt">
+                    <input
+                      class="inp-text"
+                      type="text"
+                      value="Enter Company Name (English)."
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for=""
+                    >Company Name (Arabic)
+                    <span>
+                      <a href="#"
+                        ><img src="photos/info-circle.com.svg" alt=""
+                      /></a> </span
+                  ></label>
+                  <div class="input-txt">
+                    <input class="inp-text" type="text" value="Enter Company Name (Arabic)" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-grid">
+                <div class="form-group">
+                  <label
+                    >Customer Type
+                    <span
+                      ><a href="#"
+                        ><img src="photos/info-circle.com.svg" alt=""
+                      /></a> </span
+                  ></label>
+                  <div class="input-txt" id="txt">
+                    <input class="inp-text" type="text" value="Select Customer Type" />
+                    <span><img src="photos/Down.svg" alt="" /></span>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for=""
+                    >Primary Contact<span>
+                      <a href="#"
+                        ><img src="photos/info-circle.com.svg" alt=""
+                      /></a> </span
+                  ></label>
+                  <div class="whole">
+                    <div class="input-txts">
+                      <input class="inp-text" type="text" value="Select Salutation" />
+                      <a href="#"><img src="photos/Down.svg" alt="" /></a>
+                    </div>
+
+                    <div class="input-txts">
+                      <input class="inp-text" type="text" value="Enter First Name" />
+                    </div>
+                    <div class="input-txts">
+                      <input class="inp-text" type="text" value="Enter Last Name" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-grid-num">
+                <div class="form-group">
+                  <label
+                    >Email<span
+                      ><a href="#"
+                        ><img src="photos/info-circle.com.svg" alt=""
+                      /></a> </span
+                  ></label>
+                  <div class="input-txt">
+                    <img src="photos/email.svg" alt="" /><input
+                      class="inp-text"
+                      type="email"
+                      value="Enter your Email"
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label
+                    >Contact Number
+                    <span>
+                      <a href="#"
+                        ><img src="photos/info-circle.com.svg" alt=""
+                      /></a> </span
+                  ></label>
+                  <div class="whole-num">
+                    <div class="input-number">
+                      <a href="#"><img src="photos/flag.svg" alt="" /></a>
+                      <select class="option">
+                        <option value="+973">+973</option>
+                      </select>
+
+                      <input class="no-border" type="tel" value="Enter Work Number" />
+                    </div>
+
+                    <div class="input-number">
+                      <a href="#"><img src="photos/flag.svg" alt="" /></a>
+                      <select class="option">
+                        <option value="+973">+973</option>
+                      </select>
+
+                      <input class="no-border" type="tel" value="Enter Mobile Number" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="second-form-container">
+          <div class="tabs">
+            <div class="additional-info">
+              <a href="#">Additional Information</a>
+            </div>
+            <div class="address"><a href="#">Address</a></div>
+            <div class="contact-person"><a href="#">Contact persons</a></div>
+            <div class="remarks"><a href="#">Remarks</a></div>
+          </div>
+          <div class="additional">
+            <div class="info-a">
+              <div class="three-divs-whole">
+                <div class="three-divs">
+                  <label class="ta">Tax Treatment*</label>
+                  <div class="input-ta">
+                    <input
+                      class="input-additional"
+                      type="text"
+                      value="Select Tax Treatment"
+                    />
+                    <img src="photos/Down.svg" alt="" />
+                  </div>
+                </div>
+                <div class="three-divs">
+                  <label class="ta"> Currency </label>
+                  <div class="input-ta">
+                    <input
+                      class="input-additional"
+                      type="text"
+                      value="BHD- Bahraini Dinar"
+                    />
+                    <img src="photos/Down.svg" alt="" />
+                  </div>
+                </div>
+
+                <div class="three-divs">
+                  <label class="ta"> Opening Balance</label>
+                  <div class="input-ta">
+                    <input class="input-additional" type="text" value="0" />
+                    <a id="bhd" href="#">BHD</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="three-divs-whole">
+                <div class="three-divs">
+                  <label class="ta">Source of Supply</label>
+                  <div class="input-ta">
+                    <input class="input-additional" type="text" value="Select Source of Supply" />
+                    <img src="photos/Down.svg" alt="" />
+                  </div>
+                </div>
+                <div class="three-divs">
+                  <label class="ta"> Payment Terms </label>
+                  <div class="input-ta">
+                    <input
+                      class="input-additional"
+                      type="text"
+                      value="Due On Receipt"
+                    />
+                    <img src="photos/Down.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="btn">
+        <button class="cancel-btn">Cancel</button>
+        <button class="save-btn">Save</button>
+      </div>
+    </div>
+  </body>
+</html>

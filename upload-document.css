@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito Sans", sans-serif;
+  width: 100%;
+  height: auto;
+  background-color: #f0eded;
+  /* display: flex; */
+  /* align-items: center; */
+}
+.upload-document {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 548px;
+  height: 435px;
+  /* angle: 0 deg; */
+  opacity: 1;
+  top: 295px;
+  left: 446px;
+  border-radius: 12px;
+  padding: 24px;
+  gap: 32px;
+  background-color: #ffffff;
+}
+.upload {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 313px;
+  /* angle: 0 deg; */
+  opacity: 1;
+  gap: 20px;
+}
+.upload-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  /* angle: 0 deg; */
+  opacity: 1;
+  border-radius: 28px;
+  border: 8px solid #eef3ff;
+  background-color: #dae3ff;
+}
+#icon {
+  width: 24px;
+  height: 24px;
+  /* angle: 0 deg; */
+  opacity: 1;
+  top: 12px;
+  left: 12px;
+}
+.label {
+  display: flex;
+  width: 500px;
+  height: 25px;
+  /* angle: 0 deg; */
+  opacity: 1;
+  gap: 8px;
+  font-family: Nunito Sans;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 18px;
+  /* leading-trim: NONE; */
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.label-text {
+  width: 500px;
+  height: 25px;
+  /* angle: 0 deg; */
+  opacity: 1;
+  font-family: Nunito Sans;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 18px;
+  /* leading-trim: NONE; */
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #525356;
+}
+.upload-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 200px;
+  /* angle: 0 deg; */
+  opacity: 1;
+  border-radius: 26px;
+  gap: 10px;
+  border: 2px #cbd0dc;
+  border-style: dashed;
+  /* system: 12, 12; */
+}
+
+.file-input {
+  display: none;
+}
+.choose {
+  color: blue;
+}
+.button {
+  width: 500px;
+  height: 42px;
+  /* angle: 0 deg; */
+  opacity: 1;
+  gap: 12px;
+}
+.cancel-btn {
+  width: 244px;
+  height: 42px;
+  /* angle: 0 deg; */
+  opacity: 1;
+  border-radius: 8px;
+  gap: 8px;
+  border: 1px solid #dededf;
+  padding-top: 10px;
+  padding-right: 18px;
+  padding-bottom: 10px;
+  padding-left: 18px;
+  background-color: #ffffff;
+  color: #78797d;
+  font-family: Nunito Sans;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  /* leading-trim: NONE; */
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.save-btn {
+  width: 244px;
+  height: 42px;
+  /* angle: 0 deg; */
+  opacity: 1;
+  border-radius: 8px;
+  gap: 8px;
+  border: 1px solid #4b7bff;
+  padding-top: 10px;
+  padding-right: 18px;
+  padding-bottom: 10px;
+  padding-left: 18px;
+  background-color: #4b7bff;
+  color: white;
+  font-family: Nunito Sans;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  /* leading-trim: NONE; */
+  line-height: 100%;
+  letter-spacing: 0%;
+}

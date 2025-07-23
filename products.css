@@ -373,6 +373,7 @@ body {
   border-left: 1px solid #ececed;
 }
 #name-description {
+  position: relative;
   display: flex;
   align-items: center;
   width: 457px;
@@ -501,44 +502,43 @@ body {
   width: 10px;
   height: 10px;
   border-radius: 100%;
-  background-color: #17C964;
+  background-color: #17c964;
   border: 1px solid #ffff;
 }
- .name h5 {
+.name h5 {
   width: 194.96px;
-height: 19px;
-/* angle: 0 deg; */
-opacity: 1;
-top: 9.5px;
-left: 68px;
-font-family: Nunito Sans;
-font-weight: 500;
-font-style: Medium;
-font-size: 14px;
-/* leading-trim: NONE; */
-line-height: 100%;
-letter-spacing: 0%;
-vertical-align: middle;
-color: #85878B;
-
- }
- .name p {
+  height: 19px;
+  /* angle: 0 deg; */
+  opacity: 1;
+  top: 9.5px;
+  left: 68px;
+  font-family: Nunito Sans;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 14px;
+  /* leading-trim: NONE; */
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #85878b;
+}
+.name p {
   width: 388px;
-height: 16px;
-/* angle: 0 deg; */
-opacity: 1;
-top: 30.5px;
-left: 68px;
-font-family: Nunito Sans;
-font-weight: 400;
-font-style: Regular;
-font-size: 12px;
-/* leading-trim: NONE; */
-line-height: 100%;
-letter-spacing: 0%;
-vertical-align: middle;
-color: #85878B;
- }
+  height: 16px;
+  /* angle: 0 deg; */
+  opacity: 1;
+  top: 30.5px;
+  left: 68px;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;
+  /* leading-trim: NONE; */
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #85878b;
+}
 
 .data-table tbody tr:hover {
   background: #f8fafc;
@@ -548,17 +548,16 @@ color: #85878B;
   border-bottom: none;
 }
 
-.data-table input[type="checkbox" ] {
+.data-table input[type="checkbox"] {
   display: flex;
   width: 24px;
-height: 24px;
-gap: 8px;
-padding: 8px;
+  height: 24px;
+  gap: 8px;
+  padding: 8px;
 
   accent-color: #3b82f6;
-  border: 2px solid #DEDEDF;
+  border: 2px solid #dededf;
   border-radius: 6px;
-
 }
 
 .data-table .fa-ellipsis-h {
@@ -681,4 +680,25 @@ padding: 8px;
   align-items: center;
   justify-content: center;
   border-top: 1px solid #ececed;
+}
+
+.active-dot {
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+  width: 10px;
+  height: 10px;
+  background-color: #17c964;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.inactive-dot {
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+  width: 10px;
+  height: 10px;
+  background-color: #646569;
+  border: 1px solid white;
+  border-radius: 50%;
 }

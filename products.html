@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page</title>
+    <link rel="stylesheet" href="products.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <div class="header">
+        <div class="header-content">
+          <div class="logo">
+            <a class="logo-icon" href="#"
+              ><img src="photos/logo.svg" alt="Logo"
+            /></a>
+            <span class="logo-text">HISSABI</span>
+          </div>
+          <div class="icon">
+            <div class="optima">
+              <span class="status-indicator"
+                ><a href="#"><img src="photos/optima.svg" alt="" /></a
+              ></span>
+              <span class="status-text">optima</span>
+              <span class="status-text"
+                ><a href="#"><img src="photos/Down.svg" alt="" /></a
+              ></span>
+            </div>
+            <div class="lang-notify">
+              <span class="language-icon"
+                ><a href="#"><img src="photos/language.svg" alt="" /></a
+              ></span>
+              <span class="notification-icon"
+                ><a href="#"><img src="photos/notification.svg" alt="" /></a
+              ></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main area with sidebar and content -->
+      <div class="main-area">
+        <!-- Sidebar -->
+        <div class="sidebar">
+          <!-- Sidebar content goes here -->
+        </div>
+
+        <!-- Content Area -->
+        <div class="okha">
+          <!-- Page Header -->
+          <div class="page-header">
+            <h1 class="page-title">Products</h1>
+            <div class="page-actions">
+              <button class="btn btn-primary">
+                <img src="photos/add-new.svg" alt="" /> Add New Customer
+              </button>
+              <button class="btn btn-secondary">
+                <img src="photos/Import Icon.svg" alt="" /> Import
+              </button>
+              <button class="btn btn-secondary">
+                <img src="photos/Export.svg" alt="" /> Export
+              </button>
+            </div>
+          </div>
+
+          <!-- Search and Filter -->
+          <div class="search-section">
+            <div class="search-bar">
+              <input type="text" placeholder="Search for something..." />
+              <a href="#"><img src="photos/cross.svg" alt="" /></a>
+              <i class="fas fa-times clear-search"></i>
+            </div>
+            <div class="both-manage-columns">
+              <button class="btn btn-ghost all-product">
+                All Products <img src="photos/Down.svg" alt="" />
+              </button>
+              <button class="btn btn-ghost manage-columns">
+                <img src="photos/manage-columns.svg" alt="" /> Manage Columns
+              </button>
+            </div>
+          </div>
+
+          <!-- Table -->
+          <div class="table-container">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th id="checkBox"><input type="checkbox" /></th>
+                  <th id="name-description">Name & Description</th>
+                  <th id="selling-price">Selling Price</th>
+                  <th id="cost-price">Cost Price</th>
+                  <th id="unit">Unit</th>
+                  <th id="stock-inhand">Stock in Hand</th>
+                  <th id="stock-value">Stock Value</th>
+                  <th id="empty"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="tr">
+                  <td id="checkBox"><input type="checkbox" /></td>
+                  <td id="name-description" active>
+                    <img src="photos/screw.png" alt="" /><span
+                      id="active"
+                    ></span
+                    >
+                    <div class="name">
+
+                    <h5>Screw</h5>
+                    <p>M8x16</p>
+                                        </div>
+
+                  </td>
+                  <td id="selling-price">BHD 0.100</td>
+                  <td id="cost-price">BHD 0.050</td>
+                  <td id="unit">Pcs</td>
+                  <td id="stock-inhand">423</td>
+                  <td id="stock-value">BHD 21.150</td>
+                  <td id="empty">...</td>
+                </tr>
+                <tr>
+                  <td id="checkBox"><input type="checkbox" /></td>
+                  <td id="name-description">
+                    <img src="photos/cylinder pin.png" alt="" /><span
+                      id="active"
+                    ></span
+                    >
+                    <div class="name">
+
+                    <h5>Cylinder Pin</h5>
+                    <p>6M6x16</p> 
+                                        </div>
+
+                  </td>
+                  <td id="selling-price">BHD 2.000</td>
+                  <td id="cost-price">BHD 1.500</td>
+                  <td id="unit">Box</td>
+                  <td id="stock-inhand">561</td>
+                  <td id="stock-value">BHD 841.500</td>
+                  <td id="empty">...</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Pagination -->
+          <div class="pagination">
+            <div class="pagination-info">
+              Showing <strong>61</strong> to <strong>72</strong> of
+              <strong>235</strong> entries
+            </div>
+            <div class="pagination-controls">
+              <button class="pagination-btn" disabled>
+                <i class="fas fa-chevron-left"></i>
+              </button>
+              <button class="pagination-btn">1</button>
+              <button class="pagination-btn">...</button>
+              <button class="pagination-btn">5</button>
+              <button class="pagination-btn active">6</button>
+              <button class="pagination-btn">7</button>
+              <button class="pagination-btn">...</button>
+              <button class="pagination-btn">20</button>
+              <button class="pagination-btn">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+            <div class="entries-per-page">
+              <label>Entries per page</label>
+              <select>
+                <option value="15" selected>15</option>
+                <option value="25">25</option>
+                <option value="50">50</option>
+                <option value="100">100</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <!-- <div class="footer">Footer Content</div> -->
+    </div>
+  </body>
+</html>
